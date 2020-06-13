@@ -11,7 +11,7 @@
                     </ul>
                     <strong class="navbar-text navbar-right">Funds: {{funds | currency}}</strong>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a @click="endDay">End Day</a></li>
+                        <li><a @click="endDay" style="cursor: pointer">End Day</a></li>
                         <li class="dropdown">
                             <a href=""
                                class="dropdown-toggle"
